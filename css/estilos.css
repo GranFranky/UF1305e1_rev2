@@ -1,0 +1,33 @@
+.cabecera {
+  grid-area: cabecera;
+  background-color: rgb(230, 217, 46);
+  text-align: center;
+}
+.enlaces {
+  grid-area: enlaces;
+  background-color: rgb(169, 218, 113);
+  height: 86vh;
+}
+.contenidos {
+  grid-area: contenidos;
+  background-color: rgb(76, 150, 167);
+  height: 86vh;
+}
+.pie {
+  grid-area: pie;
+  background-color: rgb(4, 217, 135);
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  grid-template-areas:
+    'cabecera cabecera cabecera cabecera cabecera'
+    'enlaces contenidos contenidos contenidos contenidos'
+    'pie pie pie pie pie';
+  padding: 0;
+}
+
+.enlaces, .contenidos {
+  padding: 1em;
+}

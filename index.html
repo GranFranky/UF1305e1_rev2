@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Ejercicio UF1305_e1</title>
+  <!--Eric Meyer’s “Reset CSS” 2.0-->
+  <link rel="stylesheet" href="css/reset.css"> 
+  <!--Bootstrap 4-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body onload="copyAnio();">
+  <div class="container">
+    <header class="cabecera">
+      <h1>CERTIFICADO DE PROFESIONALIDAD - IFCD0110 - MÓDULO MF0951_2 - UNIDAD FORMATIVA UF1305 - E1</h1>
+    </header>
+
+    <nav class="enlaces">
+      <a href="#" class="btn btn-primary" onclick="fechahora();">FECHA-HORA</a><br><br>
+      <a href="#" class="btn btn-primary" onclick="voltear();">VOLTEAR</a>
+    </nav>
+
+    <main class="contenidos">
+      <p id="fechahora"></p>
+    </main>
+
+    <footer class="pie">
+      &copy; <span id="copyanio"></span> Página realizada por: Francisco Javier Pérez Patrón.
+    </footer>
+
+    <script src="js/codigo.js"></script>
+  </div>
+</body>
+
+</html>
